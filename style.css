@@ -1,0 +1,81 @@
+@charset "UTF-8";
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e9e9ff;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        fieldset {
+            border: none;
+            padding: 0;
+            margin: 0;
+            box-shadow: 1;
+        }
+
+        legend {
+            text-align: center;
+            font-weight: bolder;
+            font-size: x-large;
+            text-shadow: 1px 1px 1px black;
+            margin-bottom: 10px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="date"],
+        input[type="email"],
+        select,
+        input[type="checkbox"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            display: inline-block;
+            margin-right: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        fieldset> a{
+            text-align: right;
+            position: fixed; /* Fixa o link na tela */
+            bottom: 20px; /* Distância do link em relação ao fundo da página */
+            right: 20px; /* Distância do link em relação à borda direita da página */
+            text-decoration: none; /* Remove a decoração do link */
+            color: #007bff; /* Cor do texto do link */
+            background-color: #fff; /* Cor de fundo do link */
+            padding: 10px 20px; /* Adiciona espaço interno ao link */
+            border-radius: 5px; /* Adiciona cantos arredondados ao link */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao link */
+            z-index: 999; /* Garante que o link fique sobre outros elementos */
+        }

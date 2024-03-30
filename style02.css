@@ -1,0 +1,95 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+header{
+    background-color: #7a7a7a;
+    text-align: center;
+    padding: 70px;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+header > h1{
+    font-family: "Reddit Mono", monospace;
+    color: white;
+    font-size: 7vh;
+    font-weight: 500;
+}
+main{
+    margin-bottom: 0px;
+}
+
+main > div{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+section > h1{
+    font-size: xx-large;
+    text-align: center;
+}
+section {
+    background-color: #fff;
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5em;
+    box-shadow: 2px 1.5px 1px rgba(146, 146, 146, 0.123);
+    border-radius: 7px;
+    font-size: 15px;
+    text-align: justify;
+    padding-bottom: 8px;
+}
+
+footer ul{
+    font-size:large ;
+    font-weight: bolder;
+}
+a.ref{
+    font-size: small;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+a#voltar{
+    text-align: right;
+    position: fixed; /* Fixa o link na tela */
+    bottom: 20px; /* Distância do link em relação ao fundo da página */
+    right: 20px; /* Distância do link em relação à borda direita da página */
+    text-decoration: none; /* Remove a decoração do link */
+    color: #007bff; /* Cor do texto do link */
+    background-color: #fff; /* Cor de fundo do link */
+    padding: 10px 20px; /* Adiciona espaço interno ao link */
+    border-radius: 5px; /* Adiciona cantos arredondados ao link */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao link */
+    z-index: 999; /* Garante que o link fique sobre outros elementos */
+}
+a.ref:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+footer{
+    background-color: #ffffff27;
+    padding: 0px;
+    margin: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}

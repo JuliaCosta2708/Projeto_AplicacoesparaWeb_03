@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #7db4f3ad;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+
+/* Estilo para o título principal */
+header h1 {
+    margin: 0;
+    font-size: 32px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.171);
+
+}
+
+/* Estilo para o subtitulo */
+header h2 {
+    margin: 5px 0;
+    font-size: 18px;
+    color: black;
+}
+
+/* Estilo para a seção principal */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 2px;
+}
+
+aside{
+    text-align: center;
+    margin-bottom: 20px;
+}
+aside audio{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Estilo para as seções */
+section {
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o título das seções */
+section h1 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+/* Estilo para o conteúdo das seções */
+section p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+div#img{
+   display: block;
+    margin: 10px auto 10px;
+    text-align: center;
+}
+
+a{
+    color: black;
+    font-size: small;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+    font-size: medium;
+    text-decoration: underline;
+}
+section> aside{
+    margin: 20px;
+}
+/* Estilo para o link de voltar */
+a#voltar {
+    position: fixed; /* Fixa o link na tela */
+    bottom: 20px; /* Distância do link em relação ao fundo da página */
+    right: 20px; /* Distância do link em relação à borda direita da página */
+    text-decoration: none; /* Remove a decoração do link */
+    color: #007bff; /* Cor do texto do link */
+    background-color: #fff; /* Cor de fundo do link */
+    padding: 10px 20px; /* Adiciona espaço interno ao link */
+    border-radius: 5px; /* Adiciona cantos arredondados ao link */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao link */
+    z-index: 999; /* Garante que o link fique sobre outros elementos */
+}
+
+/* Estilo para o link de voltar quando passar o mouse por cima */
+a.back-link:hover {
+    background-color: #f0f0f0; /* Altera a cor de fundo quando passar o mouse por cima */
+}

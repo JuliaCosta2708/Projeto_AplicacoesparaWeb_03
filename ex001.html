@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 01 - Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="Aula03.html">
+        <fieldset>
+            <legend>Dados de cadastro</legend>
+            <label for="nomedopaciente">1. Nome do Paciente</label> 
+            <input type="text" name="nomedopaciente">
+            <br><br>
+
+            <label for="registrohospitalar">2. Resgistro Hospitalar</label>
+            <input type="number">
+            <br><br>
+
+            <label for="date">3. Data da Inclusão</label>
+            <input type="date">
+            <br><br>
+
+            <label for="datanascimento">4. Data de Nascimento</label>
+            <input type="date">
+        <br><br>
+
+            <label for="email">5. E-mail</label>
+            <input type="email">
+            <br><br>
+
+            <label for="sexo">6. Sexo</label>
+            <input type="radio" name="sexo" id="feminino" value="Feminino">Feminino
+            <input type="radio" name="sexo" id="masculino" value="masculino">Masculino
+            <br><br>
+
+            <label for="raca">7. Raça</label>
+            <select name="sexo" id="sexo">
+                <label for="raca"></label>   
+            <option value="branco">Branca</option>
+            <option value="negro">Negra</option>
+            <option value="pardo">Parda</option>
+            <option value="amarela">Amarela</option>
+            <option value="indigena">Indigena</option>
+            <option value="alienigena">Alien</option>
+        </select>
+        <br><br>
+        <label for="estudo">8. Como ficou sabendo do estudo?</label> <br>
+        <input type="checkbox">Convidado <br>
+        <input type="checkbox">Internet <br>
+        <input type="checkbox">Amigos <br>
+        <input type="checkbox">Familiares <br>
+        <input type="checkbox">Outros <br>
+        <br><br><br>
+        <input type="submit" value="Submit" />
+        <a href="index.html">Voltar ao Menu</a>
+        </fieldset>
+
+    </form> 
+</body>
+</html>
